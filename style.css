@@ -24,6 +24,7 @@ header {
 } 
 .navButtons ul li {
     list-style: none;
+    text-decoration: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
