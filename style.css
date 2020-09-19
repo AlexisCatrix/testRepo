@@ -1,5 +1,52 @@
 body {
+}
 
+
+header {
+    display: flex;
+    color: white;
+    height: 160px;
+    background-color: #5f2892;
+    text-transform: uppercase;
+}
+
+.navButtons {
+    display: inherit;
+    justify-content: center;
+    align-content: center;
+}
+
+.navButtons ul {
+    display: flex;
+    padding-left: 0vw;
+    margin: 0 auto;
+    width: auto;
+} 
+.navButtons ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: #3a395f;
+    padding: 0.5vw;
+    height: 138px;
+    width: 164px;
+}
+
+.navButtons ul li:hover {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: #3a395f;
+    background-color:#975dce;
+    color: rgb(131, 17, 17);
+    font-weight: bold;
+    padding: 0.6vw;
+    height: 138px;
+    width: 164px;
 }
 
 #welcome {
@@ -9,4 +56,14 @@ body {
     justify-content: center;
     align-items: center;
     background-color: blueviolet;
+  }
+
+div #logoHeader {
+    flex-grow: 0.5;
+}
+
+  #logoHeader {
+      padding-left: 0 auto;
+      height: 10vw;
+      width: 10vw;
   }
